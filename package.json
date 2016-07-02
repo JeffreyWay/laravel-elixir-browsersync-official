@@ -1,0 +1,26 @@
+{
+  "name": "laravel-elixir-browsersync-official",
+  "version": "1.0.0",
+  "description": "Laravel Elixir Browsersync integration.",
+  "main": "dist/index.js",
+  "scripts": {
+    "compile": "babel --presets=es2015 -d dist src",
+    "prepublish": "npm run compile"
+  },
+  "keywords": [
+    "laravel",
+    "elixir",
+    "browsersync",
+    "gulp"
+  ],
+  "author": "Jeffrey Way",
+  "license": "MIT",
+  "dependencies": {
+    "browser-sync": "^2.13.0",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.10.1",
+    "babel-preset-es2015": "^6.9.0"
+  }
+}
